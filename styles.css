@@ -1,0 +1,133 @@
+*{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.main{
+ display: grid;
+ grid-template-columns: 5 1fr;
+ grid-template-rows: 2;
+ grid-gap: 5px;
+ place-items: center;
+ justify-content: center;
+}
+.main-title{
+    font-size:x-large;
+    grid-column: 1/5;
+}
+  .battle-2{
+    background:#62374E;
+    width: 400px;
+    height: 300px;
+  }
+  .battle-2 p {
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+    display: inline-block;
+  }
+.battle-2 p:nth-child(1) {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .battle-2 p:nth-child(2) {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .battle-2 p:nth-child(3){
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .battle-2 p:nth-child(4) {
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+
+  .battle-3{
+    width: 400px;
+    height: 300px;
+    background:#6592CF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    z-index: -3;
+  }
+.battle-3 p:nth-child(1){
+    z-index:1;
+    width:50px;
+    height:50px;
+    position:absolute;
+    border-radius:100%;
+    background:#EEB850;
+  }
+  .battle-3 p:nth-child(2){
+    width:150px;
+    height:150px;
+    z-index:0;
+    background:#243D83;
+    position:absolute;
+    border-radius:100%;
+  }
+  .battle-3 p:nth-child(3){
+    width:250px;
+    height:250px;
+    background:#6592CF;
+    z-index:-1;
+    position:absolute;
+    border-radius:100%;
+  }
+ .battle-3 p:nth-child(4){
+    width:300px;
+    height:150px;
+    z-index:-2;
+    border-radius:0;
+    background:#243D83;
+    position:absolute;
+  }
+  .battle-1{
+    background: #5d3a3a;
+    width: 400px;
+    height: 300px;
+  }
+  .battle-1 p {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    background: #B5E0BA;
+  }          
+
+  .battle-4{
+      width: 400px;
+      height: 300px;
+      background: #62306D;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      grid-column: 1/4;
+  }
+  .battle-4 div{
+      height: 50%;
+  }
+  #a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  #b{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 76%;
+  }
+#c{
+    border-radius: 50% 50% 0 0 ;
+    
+}
+#d{
+    border-radius: 0 0 50% 50%;
+}
+.battle-4 p {
+    width: 100px;
+    background: #F7EC7D;
+    height: 100px;
+}
